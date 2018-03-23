@@ -1,0 +1,28 @@
+######################
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#####################
+# Java Ignore files #
+#####################
+*.class
+
+#####################
+# C++ Ignore files #
+#####################
+*.gch
+*.out
+
+##########################
+# Jetbrains Ignore files #
+##########################
+*.iml
+.idea/
+

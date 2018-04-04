@@ -27,8 +27,16 @@
 | 1-2 学习数据结构（和算法）到底有没有用？ | [无代码] |
 | 1-3 课程学习的更多注意事项 | [无代码] |
 | 1-4 课程编程环境的安装 | [无代码] |
-| **第二章 不要小瞧数组** | [章节Java源码]() |
-| | |
+| **第二章 不要小瞧数组** | [章节Java源码](02-Arrays/) |
+| 2-1 使用Java中的数组 | [Java](02-Arrays/01-Array-Basics/src/) |
+| 2-2 二次封装属于我们自己的数组 | [Java](02-Arrays/02-Create-Our-Own-Array/src/) |
+| 2-3 向数组中添加元素 | [Java](02-Arrays/03-Add-Element-in-Array/src/) |
+| 2-4 数组中查询元素和修改元素 | [Java](02-Arrays/04-Query-and-Update-Element/src/) |
+| 2-5 包含，搜索和删除 | [Java](02-Arrays/05-Contain-Find-and-Remove/src/) |
+| 2-6 使用泛型 | [Java](02-Arrays/06-Generic-Data-Structures/src/) |
+| 2-7 动态数组 | [Java](02-Arrays/07-Dynamic-Array/src/) |
+| 2-8 简单的复杂度分析 | [无代码] |
+| 2-9 均摊复杂度和防止复杂度的震荡 | [Java](02-Arrays/09-Amortized-Time-Complexity/src/) |
 
 ---
 

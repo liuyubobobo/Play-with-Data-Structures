@@ -178,7 +178,6 @@ class Solution {
         }
     }
 
-
     private interface Queue<E> {
 
         int getSize();

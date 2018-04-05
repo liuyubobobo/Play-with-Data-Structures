@@ -37,6 +37,21 @@
 | 2-7 动态数组 | [Java](02-Arrays/07-Dynamic-Array/src/) |
 | 2-8 简单的复杂度分析 | [无代码] |
 | 2-9 均摊复杂度和防止复杂度的震荡 | [Java](02-Arrays/09-Amortized-Time-Complexity/src/) |
+|
+| **第三章 栈和队列** | [章节Java源码](03-Stacks-and-Queues/) |
+| 3-1 栈和栈的应用：撤销操作和系统栈 | [无代码] |
+| 3-2 栈的基本实现 | [Java](03-Stacks-and-Queues/02-Array-Stack/src/) |
+| 3-3 栈的另一个应用：括号匹配 | [Java](03-Stacks-and-Queues/03-A-Stack-Problem-in-Leetcode/src/) |
+| 3-4 关于Leetcode的更多说明 | [Java](03-Stacks-and-Queues/04-More-about-Leetcode/src/) |
+| 3-5 数组队列 | [Java](03-Stacks-and-Queues/05-Array-Queue/src/) |
+| 3-6 循环队列 | [Java](03-Stacks-and-Queues/06-Loop-Queue/src/) |
+| 3-7 循环队列的实现 | [Java](03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/src/) |
+| 3-8 数组队列和循环队列的比较 | [Java](03-Stacks-and-Queues/08-Queues-Comparison/src/) |
+| 补充代码1：没有size成员变量的循环队列 | [整理中] |
+| **第三章 链表** | [章节Java源码](04-Linked-List/) |
+| | |
+
+课程正在更新中，敬请期待：）
 
 ---
 

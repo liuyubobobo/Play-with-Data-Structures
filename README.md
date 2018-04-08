@@ -48,7 +48,7 @@
 | 3-7 循环队列的实现 | [Java](03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/src/) |
 | 3-8 数组队列和循环队列的比较 | [Java](03-Stacks-and-Queues/08-Queues-Comparison/src/) |
 | 补充代码1：没有size成员变量的循环队列 | [整理中，敬请期待] |
-| **第四章 玩转链表** | [章节Java源码](04-Linked-List/) |
+| **第四章 最基础的动态数据结构：链表** | [章节Java源码](04-Linked-List/) |
 | 4-1 什么是链表 | [Java](04-Linked-List/01-Linked-List-Basics/src/) | 
 | 4-2 在链表中添加元素 | [Java](04-Linked-List/02-Add-Elements-in-LinkedList/src/) | 
 | 4-3 使用链表的虚拟头结点 | [Java](04-Linked-List/03-DummyHead-in-LinkedList/src/) | 
@@ -56,18 +56,20 @@
 | 4-5 从链表中删除元素 | [Java](04-Linked-List/05-Remove-Element-in-LinkedList/src/) | 
 | 4-6 使用链表实现栈 | [Java](04-Linked-List/06-Implement-Stack-in-LinkedList/src/) | 
 | 4-7 带有尾指针的链表：使用链表实现队列 | [Java](04-Linked-List/07-Implement-Queue-in-LinkedList/src/) | 
-| 4-8 Leetcode中和链表相关的问题 | [Java](04-Linked-List/08-Linked-List-Problems-in-Leetcode/src/) | 
-| 4-9 递归基础与递归的宏观语意 | [Java](04-Linked-List/09-Recursion-Basics/src/) | 
-| 4-10 链表与递归 | [Java](04-Linked-List/10-LinkedList-and-Recursion/src/) | 
-| 4-11 递归运行的机制：递归的微观解读 | [无代码] | 
-| 4-12 递归算法的调试 | [Java](04-Linked-List/12-Debug-Recursive-Solution/src/) | 
-| 4-13 更多和链表相关的问题 | [无代码] |
+| **第五章 透过链表看递归** | [章节Java源码](05-Recursion/) |
+| 5-1 Leetcode中和链表相关的问题 | [Java](05-Recursion/01-Linked-List-Problems-in-Leetcode/src/) |
+| 5-2 测试自己的Leetcode链表代码 | [Java](05-Recursion/02-Test-Your-LinkedList-Solution/src/) | 
+| 5-3 递归基础与递归的宏观语意 | [Java](05-Recursion/03-Recursion-Basics/src/) | 
+| 5-4 链表与递归 | [Java](05-Recursion/04-LinkedList-and-Recursion/src/) | 
+| 5-5 递归运行的机制：递归的微观解读 | [无代码] | 
+| 5-6 递归算法的调试 | [Java](05-Recursion/06-Debug-Recursive-Solution/src/) | 
+| 5-7 更多和链表相关的问题 | [无代码] |
 | 补充代码1：单链表的递归实现 | [整理中，敬请期待] |
 | 补充代码2：斯坦福大学单链表的18个问题 | [整理中，敬请期待] |
 | 补充代码3：双链表 | [整理中，敬请期待] |
 | 补充代码4：循环双链表 | [整理中，敬请期待] |
 | 补充代码5：数组链表 | [整理中，敬请期待] |
-| **第五章 二分搜索树** | [章节Java源码](05-Binary-Search-Tree/) |
+| **第六章 二分搜索树** | [章节Java源码](06-Binary-Search-Tree/) |
  
 
 课程正在更新中，敬请期待：）

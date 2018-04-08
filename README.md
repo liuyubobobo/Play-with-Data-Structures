@@ -37,7 +37,6 @@
 | 2-7 动态数组 | [Java](02-Arrays/07-Dynamic-Array/src/) |
 | 2-8 简单的复杂度分析 | [无代码] |
 | 2-9 均摊复杂度和防止复杂度的震荡 | [Java](02-Arrays/09-Amortized-Time-Complexity/src/) |
-|
 | **第三章 栈和队列** | [章节Java源码](03-Stacks-and-Queues/) |
 | 3-1 栈和栈的应用：撤销操作和系统栈 | [无代码] |
 | 3-2 栈的基本实现 | [Java](03-Stacks-and-Queues/02-Array-Stack/src/) |

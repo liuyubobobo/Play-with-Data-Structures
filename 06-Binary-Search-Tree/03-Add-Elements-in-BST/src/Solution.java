@@ -3,7 +3,6 @@
 ///
 /// 课程中在这里暂时没有介绍这个问题
 /// 该代码主要用于使用Leetcode上的问题测试我们的BST类
-/// 该测试中BST的add使用课程的最终写法
 public class Solution {
 
     private class BST<E extends Comparable<E>> {
@@ -37,30 +36,34 @@ public class Solution {
 
         // 向二分搜索树中添加新的元素e
         public void add(E e){
-            root = add(root, e);
+
+            if(root == null){
+                root = new Node(e);
+                size ++;
+            }
+            else
+                add(root, e);
         }
 
-
-        ////////////////////////
-        // 二分搜索树的辅助函数  //
-        ////////////////////////
-
-        // 向以node为根的二分搜索树中插入元素E，递归算法
-        // 返回插入新节点后二分搜索树的根
-        private Node add(Node node, E e){
-            if(node == null){
+        // 向以node为根的二分搜索树中插入元素e，递归算法
+        private void add(Node node, E e){
+            if(e.equals(node.e))
+                return;
+            else if(e.compareTo(node.e) < 0 && node.left == null){
+                node.left = new Node(e);
                 size ++;
-                return new Node(e);
+                return;
+            }
+            else if(e.compareTo(node.e) > 0 && node.right == null){
+                node.right = new Node(e);
+                size ++;
+                return;
             }
 
-            if(e.compareTo(node.e) == 0)
-                node.e = e;
-            else if(e.compareTo(node.e) < 0)
-                node.left = add(node.left, e);
-            else // e.compareTo(node.e) > 0
-                node.right = add(node.right, e);
-
-            return node;
+            if(e.compareTo(node.e) < 0)
+                add(node.left, e);
+            else //e.compareTo(node.e) > 0
+                add(node.right, e);
         }
     }
 

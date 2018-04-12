@@ -34,9 +34,41 @@ public class BST<E extends Comparable<E>> {
         root = add(root, e);
     }
 
+    // 向以node为根的二分搜索树中插入元素e，递归算法
+    // 返回插入新节点后二分搜索树的根
+    private Node add(Node node, E e){
+        if(node == null){
+            size ++;
+            return new Node(e);
+        }
+
+        if(e.compareTo(node.e) == 0)
+            node.e = e;
+        else if(e.compareTo(node.e) < 0)
+            node.left = add(node.left, e);
+        else // e.compareTo(node.e) > 0
+            node.right = add(node.right, e);
+
+        return node;
+    }
+
     // 看二分搜索树中是否包含元素e
     public boolean contains(E e){
         return contains(root, e);
+    }
+
+    // 看以node为根的二分搜索树中是否包含元素e, 递归算法
+    private boolean contains(Node node, E e){
+
+        if(node == null)
+            return false;
+
+        if(e.compareTo(node.e) == 0)
+            return true;
+        else if(e.compareTo(node.e) < 0)
+            return contains(node.left, e);
+        else // e.compareTo(node.e) > 0
+            return contains(node.right, e);
     }
 
     // 二分搜索树的前序遍历
@@ -44,14 +76,14 @@ public class BST<E extends Comparable<E>> {
         preOrder(root);
     }
 
-    // 二分搜索树的中序遍历
-    public void inOrder(){
-        inOrder(root);
-    }
+    // 前序遍历以node为根的二分搜索树, 递归算法
+    private void preOrder(Node node){
+        if(node == null)
+            return;
 
-    // 二分搜索树的后序遍历
-    public void postOrder(){
-        postOrder(root);
+        System.out.println(node.e);
+        preOrder(node.left);
+        preOrder(node.right);
     }
 
     // 二分搜索树的非递归前序遍历
@@ -75,72 +107,6 @@ public class BST<E extends Comparable<E>> {
         StringBuilder res = new StringBuilder();
         generateString(root, 0, res);
         return res.toString();
-    }
-
-    ////////////////////////
-    // 二分搜索树的辅助函数  //
-    ////////////////////////
-
-    // 向以node为根的二分搜索树中插入元素e，递归算法
-    // 返回插入新节点后二分搜索树的根
-    private Node add(Node node, E e){
-        if(node == null){
-            size ++;
-            return new Node(e);
-        }
-
-        if(e.compareTo(node.e) == 0)
-            node.e = e;
-        else if(e.compareTo(node.e) < 0)
-            node.left = add(node.left, e);
-        else // e.compareTo(node.e) > 0
-            node.right = add(node.right, e);
-
-        return node;
-    }
-
-    // 看以node为根的二分搜索树中是否包含元素e, 递归算法
-    private boolean contains(Node node, E e){
-
-        if(node == null)
-            return false;
-
-        if(e.compareTo(node.e) == 0)
-            return true;
-        else if(e.compareTo(node.e) < 0)
-            return contains(node.left, e);
-        else // e.compareTo(node.e) > 0
-            return contains(node.right, e);
-    }
-
-    // 前序遍历以node为根的二分搜索树, 递归算法
-    private void preOrder(Node node){
-        if(node == null)
-            return;
-
-        System.out.println(node.e);
-        preOrder(node.left);
-        preOrder(node.right);
-    }
-
-    // 中序遍历以node为根的二分搜索树, 递归算法
-    private void inOrder(Node node){
-        if(node == null)
-            return;
-
-        inOrder(node.left);
-        System.out.println(node.e);
-        inOrder(node.right);
-    }
-
-    // 后序遍历以node为根的二分搜索树, 递归算法
-    private void postOrder(Node node){
-        if(node == null)
-            return;
-
-        postOrder(node.left);
-        postOrder(node.right);
-        System.out.println(node.e);
     }
 
     // 生成以node为根节点，深度为depth的描述二叉树的字符串

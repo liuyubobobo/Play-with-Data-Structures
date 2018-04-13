@@ -46,7 +46,7 @@
 | 3-6 循环队列 | [Java](03-Stacks-and-Queues/06-Loop-Queue/src/) |
 | 3-7 循环队列的实现 | [Java](03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/src/) |
 | 3-8 数组队列和循环队列的比较 | [Java](03-Stacks-and-Queues/08-Queues-Comparison/src/) |
-| 补充代码1：没有size成员变量的循环队列 | [整理中，敬请期待] |
+| 补充代码1: 没有size成员变量的循环队列 | [整理中，敬请期待] |
 | **第四章 最基础的动态数据结构：链表** | [章节Java源码](04-Linked-List/) |
 | 4-1 什么是链表 | [Java](04-Linked-List/01-Linked-List-Basics/src/) | 
 | 4-2 在链表中添加元素 | [Java](04-Linked-List/02-Add-Elements-in-LinkedList/src/) | 
@@ -63,13 +63,35 @@
 | 5-5 递归运行的机制：递归的微观解读 | [无代码] | 
 | 5-6 递归算法的调试 | [Java](05-Recursion/06-Debug-Recursive-Solution/src/) | 
 | 5-7 更多和链表相关的问题 | [无代码] |
-| 补充代码1：单链表的递归实现 | [整理中，敬请期待] |
-| 补充代码2：斯坦福大学单链表的18个问题 | [整理中，敬请期待] |
-| 补充代码3：双链表 | [整理中，敬请期待] |
-| 补充代码4：循环双链表 | [整理中，敬请期待] |
-| 补充代码5：数组链表 | [整理中，敬请期待] |
+| 补充代码1: 单链表的递归实现 | [整理中，敬请期待] |
+| 补充代码2: 斯坦福大学单链表的18个问题 | [整理中，敬请期待] |
+| 补充代码3: 双链表 | [整理中，敬请期待] |
+| 补充代码4: 循环双链表 | [整理中，敬请期待] |
+| 补充代码5: 数组链表 | [整理中，敬请期待] |
 | **第六章 二分搜索树** | [章节Java源码](06-Binary-Search-Tree/) |
- 
+| 6-1 为什么要研究树结构 | [无代码] |
+| 6-2 二分搜索树基础 | [Java](06-Binary-Search-Tree/02-Binary-Search-Tree-Basics/src/) |
+| 6-3 向二分搜索树中添加元素 | [Java](06-Binary-Search-Tree/03-Add-Elements-in-BST/src/) |
+| 6-4 改进添加操作：深入理解递归终止条件 | [Java](06-Binary-Search-Tree/04-Improved-Add-Elements-in-BST/src/) |
+| 6-5 二分搜索树的查询操作 | [Java](06-Binary-Search-Tree/05-Search-in-BST/src/) |
+| 6-6 二分搜索树的前序遍历 | [Java](06-Binary-Search-Tree/06-PreOrder-Traverse-in-BST/src/) |
+| 6-7 二分搜索树的中序遍历和后序遍历 | [Java](06-Binary-Search-Tree/07-InOrder-and-PostOrder-Traverse-in-BST/src/) |
+| 6-8 深入理解二分搜索树的前中后序遍历 | [无代码] |
+| 6-9 二分搜索树前序遍历的非递归实现 | [Java](06-Binary-Search-Tree/09-Non-Recursion-Preorder-Traverse-in-BST/src/) |
+| 6-10 二分搜索树的层序遍历 | [Java](06-Binary-Search-Tree/10-Level-Traverse-in-BST/src/) |
+| 6-11 删除二分搜索树的最大元素和最小元素 | [Java](06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/src/) |
+| 6-12 删除二分搜索树的任意元素 | [Java](06-Binary-Search-Tree/12-Remove-Elements-in-BST/src/) |
+| 6-13 更多二分搜索树相关话题 | [无代码] |
+| 补充代码1: 教科书式前中后序遍历的非递归实现 | [整理中，敬请期待] |
+| 补充代码2: 模拟系统栈前中后序遍历的非递归实现 | [整理中，敬请期待] |
+| 补充代码3: 二分搜索树其他方法的非递归实现 | [整理中，敬请期待] |
+| 补充代码4: 前驱和后继操作 | [整理中，敬请期待] |
+| 补充代码5: floor和ceil操作 | [整理中，敬请期待] |
+| 补充代码6: 节点内维护size的二分搜索树 | [整理中，敬请期待] |
+| 补充代码7: rank和select操作 | [整理中，敬请期待] |
+| 补充代码8: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
+| 补充代码9: 节点内维护count的二分搜索树(支持重复元素的二分搜索树) | [整理中，敬请期待] |
+| **第七章 集合和映射** | [章节Java源码](07-Set-and-Map/) |
 
 课程正在更新中，敬请期待：）
 

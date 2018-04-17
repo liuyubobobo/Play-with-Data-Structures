@@ -159,6 +159,7 @@ public class LinkedListSetSolution {
                 Node delNode = prev.next;
                 prev.next = delNode.next;
                 delNode.next = null;
+                size --;
             }
         }
 

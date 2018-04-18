@@ -18,6 +18,31 @@
 
 ![QRCode](qrcode.jpg)
 
+## 更多说明
+
+* 课程更新阶段，暂时只有Java语言版本源码，课程更新完毕后会先上线C++版本源码。在本年度(2018年)有上线Python版本源码的计划。对于其他语言支持，暂时没有计划。
+
+* 每一章后面有补充代码的部分。**课程本身已经独立成体系，补充内容只是额外拓展，不影响课程整体的学习。对于课程整体学习，可以忽略。建议先完成课程必要部分学习，再酌情研究补充内容。**
+
+* 对于补充代码部分的内容，大多是课程中提及的拓展内容。对于这部分内容，我会**不定期更新代码，但不保证时间**。放在课程目录中，主要是供大家拓展思路使用。大家也可以理解成是思考练习，可以自行编写代码练习完成补充内容，相信是很好的编程锻炼：）当然，有任何问题可以在问答区进行提问。
+
+* 请不要使用github，微信，QQ，邮件进行答疑。请使用课程问答区进行答疑。谢谢！
+
+* 由于慕课网规定，**课程不再提供PPT下载**，请谅解。
+
+* 大家加油！：）
+
+
+### 更多相关代码仓
+
+* [**《算法与数据结构》课程**](https://coding.imooc.com/class/71.html), 代码仓: [Play-with-Algorithms](https://github.com/liuyubobobo/Play-with-Algorithms)
+
+* [**《玩转算法面试》课程**](https://coding.imooc.com/class/82.html), 代码仓: [Play-with-Algorithm-Interview](https://github.com/liuyubobobo/Play-with-Algorithm-Interview)
+
+* [**《看得见的算法》课程**](https://coding.imooc.com/class/138.html), 代码仓: [Play-with-Algorithm-Visualization](https://github.com/liuyubobobo/Play-with-Algorithm-Visualization)
+
+*  我的LeetCode题解代码仓：[Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode) 
+（注：以C++实现为主）
 
 ## 课程源码目录 
 
@@ -90,19 +115,40 @@
 | 补充代码6: 节点内维护size的二分搜索树 | [整理中，敬请期待] |
 | 补充代码7: rank和select操作 | [整理中，敬请期待] |
 | 补充代码8: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
-| 补充代码9: 节点内维护count的二分搜索树(支持重复元素的二分搜索树) | [整理中，敬请期待] |
-| **第七章 集合和映射** | [更新中，敬请期待] |
-| **第八章 堆，优先队列和广义队列** | [更新中，敬请期待] |
+| 补充代码9: 节点内维护count的二分搜索树<br/>(支持重复元素的二分搜索树) | [整理中，敬请期待] |
+| 补充代码10: 有重复元素节点的二分搜索树<br/>(另一种支持重复元素的二分搜索树实现) | [整理中，敬请期待] |
+| **第七章 集合和映射** | [章节Java源码](07-Set-and-Map/) |
+| 7-1 集合基础和基于二分搜索树的集合实现 | [Java](07-Set-and-Map/01-Set-Basics-and-BSTSet/src/) |
+| 7-2 基于链表的集合实现 | [Java](07-Set-and-Map/02-LinkedListSet/src/) |
+| 7-3 集合类的复杂度分析 | [Java](07-Set-and-Map/03-Time-Complexity-of-Set/src/) |
+| 7-4 Leetcode中的集合问题和更多集合相关问题 | [Java](07-Set-and-Map/04-TreeSet-and-Set-Problems-in-Leetcode/src/) |
+| 7-5 映射基础 | [Java](07-Set-and-Map/05-Map-Basics/src/) |
+| 7-6 基于链表的映射实现 | [Java](07-Set-and-Map/06-LinkedListMap/src/) |
+| 7-7 基于二分搜索树的映射实现 | [Java](07-Set-and-Map/07-BSTMap/src/) |
+| 7-8 映射的复杂度分析和更多映射相关问题 | [Java](07-Set-and-Map/08-More-about-Map/src/) |
+| 7-9 Leetcode上更多集合和映射的问题 | [Java](07-Set-and-Map/09-Leetcode-Problems-about-Map-and-Set/src/) |
+| 补充代码1: 更完整的基于二分搜索树的有序集合 | [整理中，敬请期待] |
+| 补充代码2: 更完整的基于二分搜索树的有序映射 | [整理中，敬请期待] |
+| 补充代码3: 多重集合 | [整理中，敬请期待] |
+| 补充代码4: 多重映射 | [整理中，敬请期待] |
+| 补充代码5: 基于映射实现的集合 | [整理中，敬请期待] |
+| **第八章 堆和优先队列** | [更新中，敬请期待] |
+| | |
 | **第九章 线段树** | [更新中，敬请期待] |
+| | |
 | **第十章 Trie** | [更新中，敬请期待] |
+| | |
 | **第十一章 并查集** | [更新中，敬请期待] |
+| | |
 | **第十二章 平衡树和AVL** | [更新中，敬请期待] |
+| | |
 | **第十三章 红黑树** | [更新中，敬请期待] |
+| | |
 | **第十四章 哈希表** | [更新中，敬请期待] |
+| | |
 | **第十五章 结语** | [更新中，敬请期待] |
+| | |
 
 课程正在更新中，敬请期待：）
 
 ---
-
-由于慕课网规定，课程不再提供PPT下载，请谅解。

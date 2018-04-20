@@ -89,7 +89,7 @@
 | 5-6 递归算法的调试 | [Java](05-Recursion/06-Debug-Recursive-Solution/src/) | 
 | 5-7 更多和链表相关的问题 | [无代码] |
 | 补充代码1: 单链表的递归实现 | [整理中，敬请期待] |
-| 补充代码2: 斯坦福大学单链表的18个问题 | [整理中，敬请期待] |
+| 补充代码2: 斯坦福大学单链表的18个问题 | [PDF](05-Recursion/Optional-02-Stanford-LinkedList-Problems/)<br/>[代码整理中，敬请期待] |
 | 补充代码3: 双链表 | [整理中，敬请期待] |
 | 补充代码4: 循环双链表 | [整理中，敬请期待] |
 | 补充代码5: 数组链表 | [整理中，敬请期待] |
@@ -117,6 +117,8 @@
 | 补充代码8: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
 | 补充代码9: 节点内维护count的二分搜索树<br/>(支持重复元素的二分搜索树) | [整理中，敬请期待] |
 | 补充代码10: 有重复元素节点的二分搜索树<br/>(另一种支持重复元素的二分搜索树实现) | [整理中，敬请期待] |
+| 补充代码11: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-11-Standford-Binary-Tree)<br/>[代码整理中，敬请期待] |
+| 补充代码12: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-12-Standford-TreeList)<br/>[代码整理中，敬请期待] |
 | **第七章 集合和映射** | [章节Java源码](07-Set-and-Map/) |
 | 7-1 集合基础和基于二分搜索树的集合实现 | [Java](07-Set-and-Map/01-Set-Basics-and-BSTSet/src/) |
 | 7-2 基于链表的集合实现 | [Java](07-Set-and-Map/02-LinkedListSet/src/) |

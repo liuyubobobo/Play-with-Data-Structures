@@ -27,7 +27,6 @@ Thumbs.db
 .idea/
 
 #################
-# Keynote & PDF #
+# Keynote       #
 #################
 *.key
-*.pdf

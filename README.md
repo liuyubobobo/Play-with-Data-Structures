@@ -132,8 +132,26 @@
 | 补充代码3: 多重集合 | [整理中，敬请期待] |
 | 补充代码4: 多重映射 | [整理中，敬请期待] |
 | 补充代码5: 基于映射实现的集合 | [整理中，敬请期待] |
-| **第八章 堆和优先队列** | [更新中，敬请期待] |
-| | |
+| **第八章 堆和优先队列** | [章节Java源码](08-Heap-and-Priority-Queue/) |
+| 8-1 什么是优先队列 | [无代码] |
+| 8-2 堆的基础表示 | [Java](08-Heap-and-Priority-Queue/02-Heap-Basics/src/) |
+| 8-3 向堆中添加元素和Sift Up | [Java](08-Heap-and-Priority-Queue/03-Add-and-Sift-Up-in-Heap/src/) |
+| 8-4 从堆中取出元素和Sift Down | [Java](08-Heap-and-Priority-Queue/04-Extract-and-Sift-Down-in-Heap/src/) |
+| 8-5 Heapify 和 Replace | [Java](08-Heap-and-Priority-Queue/05-Heapify-and-Replace-in-Heap/src/) |
+| 8-6 基于堆的优先队列 | [Java](08-Heap-and-Priority-Queue/06-Priority-Queue/src/) |
+| 8-7 Leetcode上优先队列相关问题 | [Java](08-Heap-and-Priority-Queue/07-Priority-Queue-Problems-in-Leetcode/src/) |
+| 8-8 Java中的PriorityQueue | [Java](08-Heap-and-Priority-Queue/08-Priority-Queue-in-Java/src/) |
+| 8-9 和堆相关的更多话题和广义队列 | [无代码] |
+| 补充代码1: 普通线性结构和顺序线性结构实现的优先队列 | [整理中，敬请期待] |
+| 补充代码2: 最小堆 | [整理中，敬请期待] |
+| 补充代码3: 堆排序 | [整理中，敬请期待] |
+| 补充代码4: 索引堆 | [整理中，敬请期待] |
+| 补充代码5: 双向优先队列 | [整理中，敬请期待] |
+| 补充代码6: 多叉堆 | [整理中，敬请期待] |
+| 补充代码7: 二项堆 | [整理中，敬请期待] |
+| 补充代码8: 斐波那契堆 | [整理中，敬请期待] |
+| 补充代码9: 斐波那契堆 | [整理中，敬请期待] |
+| 补充代码10: 基于事件堆的例子监测碰撞 | [整理中，敬请期待] |
 | **第九章 线段树** | [更新中，敬请期待] |
 | | |
 | **第十章 Trie** | [更新中，敬请期待] |

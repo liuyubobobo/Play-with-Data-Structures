@@ -260,7 +260,7 @@ class Solution {
 
     private class Freq implements Comparable<Freq>{
 
-        int e, freq;
+        public int e, freq;
 
         public Freq(int e, int freq){
             this.e = e;

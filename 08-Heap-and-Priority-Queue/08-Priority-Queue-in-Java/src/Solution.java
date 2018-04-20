@@ -42,7 +42,7 @@ public class Solution {
             if(pq.size() < k)
                 pq.add(new Freq(key, map.get(key)));
             else if(map.get(key) > pq.peek().freq){
-                pq.poll();
+                pq.remove();
                 pq.add(new Freq(key, map.get(key)));
             }
         }

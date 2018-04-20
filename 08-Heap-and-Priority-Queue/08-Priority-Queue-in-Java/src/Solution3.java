@@ -7,7 +7,7 @@ public class Solution3 {
 
     private class Freq{
 
-        int e, freq;
+        public int e, freq;
 
         public Freq(int e, int freq){
             this.e = e;
@@ -35,7 +35,7 @@ public class Solution3 {
             if(pq.size() < k)
                 pq.add(new Freq(key, map.get(key)));
             else if(map.get(key) > pq.peek().freq){
-                pq.poll();
+                pq.remove();
                 pq.add(new Freq(key, map.get(key)));
             }
         }

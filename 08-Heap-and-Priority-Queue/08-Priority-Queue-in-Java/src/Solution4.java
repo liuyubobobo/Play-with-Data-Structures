@@ -25,7 +25,7 @@ public class Solution4 {
             if(pq.size() < k)
                 pq.add(key);
             else if(map.get(key) > map.get(pq.peek())){
-                pq.poll();
+                pq.remove();
                 pq.add(key);
             }
         }

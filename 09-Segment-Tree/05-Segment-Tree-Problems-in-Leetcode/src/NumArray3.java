@@ -4,8 +4,8 @@
 /// 使用sum数组的思路：TLE
 class NumArray3 {
 
-    int[] data;
-    int[] sum;
+    private int[] data;
+    private int[] sum;
     public NumArray3(int[] nums) {
 
         data = new int[nums.length];
@@ -24,7 +24,7 @@ class NumArray3 {
 
     public void update(int index, int val) {
         data[index] = val;
-        for(int i = 1 ; i <= data.length ; i ++)
+        for(int i = index + 1 ; i < sum.length ; i ++)
             sum[i] = sum[i - 1] + data[i - 1];
     }
 }

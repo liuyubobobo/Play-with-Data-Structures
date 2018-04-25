@@ -96,7 +96,7 @@ public class SegmentTree<E> {
         set(0, 0, data.length - 1, index, e);
     }
 
-    // 在以treeID为根的线段树中更新index的值为e
+    // 在以treeIndex为根的线段树中更新index的值为e
     private void set(int treeIndex, int l, int r, int index, E e){
 
         if(l == r){
@@ -105,7 +105,7 @@ public class SegmentTree<E> {
         }
 
         int mid = l + (r - l) / 2;
-        // treeID的节点分为[l...mid]和[mid+1...r]两部分
+        // treeIndex的节点分为[l...mid]和[mid+1...r]两部分
 
         int leftTreeIndex = leftChild(treeIndex);
         int rightTreeIndex = rightChild(treeIndex);

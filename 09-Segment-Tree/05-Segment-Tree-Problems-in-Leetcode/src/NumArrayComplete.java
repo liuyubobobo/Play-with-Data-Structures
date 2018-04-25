@@ -64,7 +64,7 @@ class NumArrayComplete {
             return 2*index + 2;
         }
 
-        // 返回区间[l, r]的值
+        // 返回区间[queryL, queryR]的值
         public E query(int queryL, int queryR){
 
             if(queryL < 0 || queryL >= data.length ||
@@ -74,14 +74,14 @@ class NumArrayComplete {
             return query(0, 0, data.length - 1, queryL, queryR);
         }
 
-        // 在以treeID为根的线段树中搜索区间[l...r]的值
+        // 在以treeIndex为根的线段树中[l...r]的范围里，搜索区间[queryL...queryR]的值
         private E query(int treeIndex, int l, int r, int queryL, int queryR){
 
             if(l == queryL && r == queryR)
                 return tree[treeIndex];
 
             int mid = l + (r - l) / 2;
-            // treeID的节点分为[l...mid]和[mid+1...r]两部分
+            // treeIndex的节点分为[l...mid]和[mid+1...r]两部分
 
             int leftTreeIndex = leftChild(treeIndex);
             int rightTreeIndex = rightChild(treeIndex);
@@ -113,7 +113,8 @@ class NumArrayComplete {
         }
     }
 
-    SegmentTree<Integer> segmentTree;
+    private SegmentTree<Integer> segmentTree;
+
     public NumArrayComplete(int[] nums) {
 
         if(nums.length > 0){

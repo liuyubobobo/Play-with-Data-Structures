@@ -3,7 +3,7 @@
 
 class NumArray {
 
-    SegmentTree<Integer> segmentTree;
+    private SegmentTree<Integer> segmentTree;
     public NumArray(int[] nums) {
 
         if(nums.length > 0){

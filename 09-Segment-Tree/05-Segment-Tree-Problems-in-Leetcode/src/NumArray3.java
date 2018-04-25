@@ -2,11 +2,11 @@
 /// https://leetcode.com/problems/range-sum-query-mutable/description/
 ///
 /// 使用sum数组的思路：TLE
-class NumArray2 {
+class NumArray3 {
 
     int[] data;
     int[] sum;
-    public NumArray2(int[] nums) {
+    public NumArray3(int[] nums) {
 
         data = new int[nums.length];
         for(int i = 0 ; i < nums.length ; i ++)

@@ -153,8 +153,20 @@
 | 补充代码7: 二项堆 | [整理中，敬请期待] |
 | 补充代码8: 斐波那契堆 | [整理中，敬请期待] |
 | 补充代码9: 基于事件堆的粒子检测碰撞 | [整理中，敬请期待] |
-| **第九章 线段树** | [更新中，敬请期待] |
-| | |
+| **第九章 线段树** | [章节Java源码](09-Segment-Tree/) |
+| 9-1 什么是线段树 | [无代码] |
+| 9-2 线段树基础表示 | [Java](09-Segment-Tree/02-Segment-Tree-Basics/src/) |
+| 9-3 创建线段树 | [Java](09-Segment-Tree/03-Building-Segment-Tree/src/) |
+| 9-4 线段树中的区间查询 | [Java](09-Segment-Tree/04-Query-in-Segment-Tree/src/) |
+| 9-5 Leetcode上线段树相关的问题 | [Java](09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/) |
+| 9-6 线段树中的更新操作 | [Java](09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/) |
+| 9-7 更多线段树相关的话题 | [无代码] |
+| 补充代码1: 线段树的懒惰传播 | [整理中，敬请期待] |
+| 补充代码2: 二维线段树 | [整理中，敬请期待] |
+| 补充代码3: 链式存储的线段树 | [整理中，敬请期待] |
+| 补充代码4: 动态线段树 | [整理中，敬请期待] |
+| 补充代码5: BIT | [整理中，敬请期待] |
+| 补充代码6: RMQ问题 | [整理中，敬请期待] |
 | **第十章 Trie** | [更新中，敬请期待] |
 | | |
 | **第十一章 并查集** | [更新中，敬请期待] |

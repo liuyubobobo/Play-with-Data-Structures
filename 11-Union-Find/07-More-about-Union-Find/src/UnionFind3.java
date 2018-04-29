@@ -1,24 +1,20 @@
-// 我们的第五版Union-Find
-public class UnionFind5 implements UF {
+// 我们的第三版Union-Find
+public class UnionFind3 implements UF{
 
-    // rank[i]表示以i为根的集合所表示的树的层数
-    // 在后续的代码中, 我们并不会维护rank的语意, 也就是rank的值在路径压缩的过程中, 有可能不在是树的层数值
-    // 这也是我们的rank不叫height或者depth的原因, 他只是作为比较的一个标准
-    private int[] rank;
-    private int[] parent; // parent[i]表示第i个元素所指向的父节点
+    private int[] parent; // parent[i]表示第一个元素所指向的父节点
+    private int[] sz;     // sz[i]表示以i为根的集合中元素个数
     private int size;    // 数据个数
 
     // 构造函数
-    public UnionFind5(int size){
+    public UnionFind3(int size){
 
-        rank = new int[size];
         parent = new int[size];
+        sz = new int[size];
         this.size = size;
-
         // 初始化, 每一个parent[i]指向自己, 表示每一个元素自己自成一个集合
-        for( int i = 0 ; i < size ; i ++ ){
+        for(int i = 0 ; i < size ; i ++){
             parent[i] = i;
-            rank[i] = 1;
+            sz[i] = 1;
         }
     }
 
@@ -33,10 +29,10 @@ public class UnionFind5 implements UF {
         if(p < 0 && p >= size)
             throw new IllegalArgumentException("p is out of bound.");
 
-        while( p != parent[p] ){
-            parent[p] = parent[parent[p]];
+        // 不断去查询自己的父亲节点, 直到到达根节点
+        // 根节点的特点: parent[p] == p
+        while( p != parent[p] )
             p = parent[p];
-        }
         return p;
     }
 
@@ -55,18 +51,18 @@ public class UnionFind5 implements UF {
         int pRoot = find(p);
         int qRoot = find(q);
 
-        if( pRoot == qRoot )
+        if(pRoot == qRoot)
             return;
 
         // 根据两个元素所在树的元素个数不同判断合并方向
         // 将元素个数少的集合合并到元素个数多的集合上
-        if( rank[pRoot] < rank[qRoot] )
+        if(sz[pRoot] < sz[qRoot]){
             parent[pRoot] = qRoot;
-        else if( rank[qRoot] < rank[pRoot])
+            sz[qRoot] += sz[pRoot];
+        }
+        else{
             parent[qRoot] = pRoot;
-        else{ // rank[pRoot] == rank[qRoot]
-            parent[pRoot] = qRoot;
-            rank[qRoot] += 1;   // 此时, 我维护rank的值
+            sz[pRoot] += sz[qRoot];
         }
     }
 }

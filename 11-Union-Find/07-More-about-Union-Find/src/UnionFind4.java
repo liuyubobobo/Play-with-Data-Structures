@@ -1,15 +1,12 @@
-// 我们的第五版Union-Find
-public class UnionFind5 implements UF {
+// 我们的第四版Union-Find
+public class UnionFind4 implements UF {
 
-    // rank[i]表示以i为根的集合所表示的树的层数
-    // 在后续的代码中, 我们并不会维护rank的语意, 也就是rank的值在路径压缩的过程中, 有可能不在是树的层数值
-    // 这也是我们的rank不叫height或者depth的原因, 他只是作为比较的一个标准
-    private int[] rank;
+    private int[] rank;   // rank[i]表示以i为根的集合所表示的树的层数
     private int[] parent; // parent[i]表示第i个元素所指向的父节点
     private int size;    // 数据个数
 
     // 构造函数
-    public UnionFind5(int size){
+    public UnionFind4(int size){
 
         rank = new int[size];
         parent = new int[size];
@@ -33,10 +30,10 @@ public class UnionFind5 implements UF {
         if(p < 0 && p >= size)
             throw new IllegalArgumentException("p is out of bound.");
 
-        while( p != parent[p] ){
-            parent[p] = parent[parent[p]];
+        // 不断去查询自己的父亲节点, 直到到达根节点
+        // 根节点的特点: parent[p] == p
+        while(p != parent[p])
             p = parent[p];
-        }
         return p;
     }
 

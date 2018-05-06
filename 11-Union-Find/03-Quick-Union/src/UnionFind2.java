@@ -4,13 +4,12 @@ public class UnionFind2 implements UF {
     // 我们的第二版Union-Find, 使用一个数组构建一棵指向父节点的树
     // parent[i]表示第一个元素所指向的父节点
     private int[] parent;
-    private int size;  // 数据个数
 
     // 构造函数
     public UnionFind2(int size){
 
         parent = new int[size];
-        this.size = size;
+
         // 初始化, 每一个parent[i]指向自己, 表示每一个元素自己自成一个集合
         for( int i = 0 ; i < size ; i ++ )
             parent[i] = i;
@@ -18,13 +17,13 @@ public class UnionFind2 implements UF {
 
     @Override
     public int getSize(){
-        return size;
+        return parent.length;
     }
 
     // 查找过程, 查找元素p所对应的集合编号
     // O(h)复杂度, h为树的高度
     private int find(int p){
-        if(p < 0 && p >= size)
+        if(p < 0 && p >= parent.length)
             throw new IllegalArgumentException("p is out of bound.");
 
         // 不断去查询自己的父亲节点, 直到到达根节点

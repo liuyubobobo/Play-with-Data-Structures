@@ -24,26 +24,26 @@ public class Main {
 
         long endTime = System.nanoTime();
 
-        double time = (endTime - startTime) / 1000000000.0;
-        return time;
+        return (endTime - startTime) / 1000000000.0;
     }
 
     public static void main(String[] args) {
 
+        // UnionFind1 慢于 UnionFind2
+//        int size = 100000;
+//        int m = 10000;
+
+        // UnionFind2 慢于 UnionFind1, 但UnionFind3最快
         int size = 100000;
         int m = 100000;
-        double time;
 
         UnionFind1 uf1 = new UnionFind1(size);
-        time = testUF(uf1, m);
-        System.out.println("UnionFind1 : " + time + " s");
+        System.out.println("UnionFind1 : " + testUF(uf1, m) + " s");
 
         UnionFind2 uf2 = new UnionFind2(size);
-        time = testUF(uf2, m);
-        System.out.println("UnionFind2 : " + time + " s");
+        System.out.println("UnionFind2 : " + testUF(uf2, m) + " s");
 
         UnionFind3 uf3 = new UnionFind3(size);
-        time = testUF(uf3, m);
-        System.out.println("UnionFind3 : " + time + " s");
+        System.out.println("UnionFind3 : " + testUF(uf3, m) + " s");
     }
 }

@@ -3,14 +3,12 @@ public class UnionFind4 implements UF {
 
     private int[] rank;   // rank[i]表示以i为根的集合所表示的树的层数
     private int[] parent; // parent[i]表示第i个元素所指向的父节点
-    private int size;    // 数据个数
 
     // 构造函数
     public UnionFind4(int size){
 
         rank = new int[size];
         parent = new int[size];
-        this.size = size;
 
         // 初始化, 每一个parent[i]指向自己, 表示每一个元素自己自成一个集合
         for( int i = 0 ; i < size ; i ++ ){
@@ -21,13 +19,13 @@ public class UnionFind4 implements UF {
 
     @Override
     public int getSize(){
-        return size;
+        return parent.length;
     }
 
     // 查找过程, 查找元素p所对应的集合编号
     // O(h)复杂度, h为树的高度
     private int find(int p){
-        if(p < 0 && p >= size)
+        if(p < 0 && p >= parent.length)
             throw new IllegalArgumentException("p is out of bound.");
 
         // 不断去查询自己的父亲节点, 直到到达根节点
@@ -55,11 +53,11 @@ public class UnionFind4 implements UF {
         if( pRoot == qRoot )
             return;
 
-        // 根据两个元素所在树的元素个数不同判断合并方向
-        // 将元素个数少的集合合并到元素个数多的集合上
-        if( rank[pRoot] < rank[qRoot] )
+        // 根据两个元素所在树的rank不同判断合并方向
+        // 将rank低的集合合并到rank高的集合上
+        if(rank[pRoot] < rank[qRoot])
             parent[pRoot] = qRoot;
-        else if( rank[qRoot] < rank[pRoot])
+        else if(rank[qRoot] < rank[pRoot])
             parent[qRoot] = pRoot;
         else{ // rank[pRoot] == rank[qRoot]
             parent[pRoot] = qRoot;

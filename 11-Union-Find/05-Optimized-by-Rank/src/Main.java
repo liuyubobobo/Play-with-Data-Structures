@@ -24,30 +24,24 @@ public class Main {
 
         long endTime = System.nanoTime();
 
-        double time = (endTime - startTime) / 1000000000.0;
-        return time;
+        return (endTime - startTime) / 1000000000.0;
     }
 
     public static void main(String[] args) {
 
-        int size = 100000;
-        int m = 100000;
-        double time;
+        int size = 10000000;
+        int m = 10000000;
 
-        UnionFind1 uf1 = new UnionFind1(size);
-        time = testUF(uf1, m);
-        System.out.println("UnionFind1 : " + time + " s");
-
-        UnionFind2 uf2 = new UnionFind2(size);
-        time = testUF(uf2, m);
-        System.out.println("UnionFind2 : " + time + " s");
+//        UnionFind1 uf1 = new UnionFind1(size);
+//        System.out.println("UnionFind1 : " + testUF(uf1, m) + " s");
+//
+//        UnionFind2 uf2 = new UnionFind2(size);
+//        System.out.println("UnionFind2 : " + testUF(uf2, m) + " s");
 
         UnionFind3 uf3 = new UnionFind3(size);
-        time = testUF(uf3, m);
-        System.out.println("UnionFind3 : " + time + " s");
+        System.out.println("UnionFind3 : " + testUF(uf3, m) + " s");
 
         UnionFind4 uf4 = new UnionFind4(size);
-        time = testUF(uf4, m);
-        System.out.println("UnionFind4 : " + time + " s");
+        System.out.println("UnionFind4 : " + testUF(uf4, m) + " s");
     }
 }

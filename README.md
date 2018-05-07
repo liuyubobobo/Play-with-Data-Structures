@@ -180,8 +180,14 @@
 | 补充代码6: 子串查询算法 | [整理中，敬请期待] |
 | 补充代码7: 文件压缩算法 | [整理中，敬请期待] |
 | 补充代码8: 模式匹配算法 | [整理中，敬请期待] |
-| **第十一章 并查集** | [更新中，敬请期待] |
-| | |
+| **第十一章 并查集** | [章节Java源码](11-Union-Find/) |
+| 11-1 什么是并查集 | [Java](11-Union-Find/01-What-is-UnionFind/src/) |
+| 11-2 Quick Find | [Java](11-Union-Find/02-Quick-Find/src/) |
+| 11-3 Quick Union | [Java](11-Union-Find/03-Quick-Union/src/) |
+| 11-4 基于size的优化 | [Java](11-Union-Find/04-Optimized-by-Size/src/) |
+| 11-5 基于rank的优化 | [Java](11-Union-Find/05-Optimized-by-Rank/src/) |
+| 11-6 路径压缩 | [Java](11-Union-Find/06-Path-Compression/src/) |
+| 11-7 更多和并查集相关的话题 | [Java](11-Union-Find/07-More-about-Union-Find/src/) |
 | **第十二章 平衡树和AVL** | [更新中，敬请期待] |
 | | |
 | **第十三章 红黑树** | [更新中，敬请期待] |

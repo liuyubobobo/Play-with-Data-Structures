@@ -35,22 +35,23 @@ public class AVLTree<K extends Comparable<K>, V> {
 
     // 判断该二叉树是否是一棵二分搜索树
     public boolean isBST(){
-        return isBST(root);
+
+        ArrayList<K> keys = new ArrayList<>();
+        inOrder(root, keys);
+        for(int i = 1 ; i < keys.size() ; i ++)
+            if(keys.get(i - 1).compareTo(keys.get(i)) > 0)
+                return false;
+        return true;
     }
 
-    // 判断以node为根的二叉树是否是一棵二分搜索树，递归算法
-    private boolean isBST(Node node){
+    private void inOrder(Node node, ArrayList<K> keys){
 
         if(node == null)
-            return true;
+            return;
 
-        if(node.left != null && node.left.key.compareTo(node.key) > 0)
-            return false;
-
-        if(node.right != null && node.right.key.compareTo(node.key) < 0)
-            return false;
-
-        return isBST(node.left) && isBST(node.right);
+        inOrder(node.left, keys);
+        keys.add(node.key);
+        inOrder(node.right, keys);
     }
 
     // 判断该二叉树是否是一棵平衡二叉树

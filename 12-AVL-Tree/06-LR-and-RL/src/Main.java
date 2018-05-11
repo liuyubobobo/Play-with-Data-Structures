@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
 
@@ -9,6 +10,8 @@ public class Main {
         ArrayList<String> words = new ArrayList<>();
         if(FileOperation.readFile("pride-and-prejudice.txt", words)) {
             System.out.println("Total words: " + words.size());
+
+            // Collections.sort(words);
 
             // Test BST
             long startTime = System.nanoTime();
@@ -30,7 +33,7 @@ public class Main {
             System.out.println("BST: " + time + " s");
 
 
-            // Test AVL
+            // Test AVL Tree
             startTime = System.nanoTime();
 
             AVLTree<String, Integer> avl = new AVLTree<>();

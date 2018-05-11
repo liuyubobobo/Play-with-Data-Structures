@@ -116,7 +116,7 @@ public class AVLTree<K extends Comparable<K>, V> {
     //   T2  z                     T1 T2 T3 T4
     //      / \
     //     T3 T4
-    Node leftRotate(Node y) {
+    private Node leftRotate(Node y) {
         Node x = y.right;
         Node T2 = x.left;
 

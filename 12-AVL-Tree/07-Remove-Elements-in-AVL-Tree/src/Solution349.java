@@ -124,7 +124,7 @@ public class Solution349 {
         //   T2  z                     T1 T2 T3 T4
         //      / \
         //     T3 T4
-        Node leftRotate(Node y) {
+        private Node leftRotate(Node y) {
             Node x = y.right;
             Node T2 = x.left;
 
@@ -166,6 +166,7 @@ public class Solution349 {
             // 计算平衡因子
             int balanceFactor = getBalanceFactor(node);
 
+            // 平衡维护
             if (balanceFactor > 1 && getBalanceFactor(node.left) >= 0)
                 return rightRotate(node);
 
@@ -311,6 +312,7 @@ public class Solution349 {
             // 计算平衡因子
             int balanceFactor = getBalanceFactor(retNode);
 
+            // 平衡维护
             if (balanceFactor > 1 && getBalanceFactor(retNode.left) >= 0)
                 return rightRotate(retNode);
 

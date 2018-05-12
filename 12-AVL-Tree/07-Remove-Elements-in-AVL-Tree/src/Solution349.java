@@ -167,17 +167,21 @@ public class Solution349 {
             int balanceFactor = getBalanceFactor(node);
 
             // 平衡维护
+            // LL
             if (balanceFactor > 1 && getBalanceFactor(node.left) >= 0)
                 return rightRotate(node);
 
+            // RR
             if (balanceFactor < -1 && getBalanceFactor(node.right) <= 0)
                 return leftRotate(node);
 
+            // LR
             if (balanceFactor > 1 && getBalanceFactor(node.left) < 0) {
                 node.left = leftRotate(node.left);
                 return rightRotate(node);
             }
 
+            // RL
             if (balanceFactor < -1 && getBalanceFactor(node.right) > 0) {
                 node.right = rightRotate(node.right);
                 return leftRotate(node);
@@ -223,21 +227,6 @@ public class Solution349 {
             if(node.left == null)
                 return node;
             return minimum(node.left);
-        }
-
-        // 删除掉以node为根的二分搜索树中的最小节点
-        // 返回删除节点后新的二分搜索树的根
-        private Node removeMin(Node node){
-
-            if(node.left == null){
-                Node rightNode = node.right;
-                node.right = null;
-                size --;
-                return rightNode;
-            }
-
-            node.left = removeMin(node.left);
-            return node;
         }
 
         // 从二分搜索树中删除键为key的节点
@@ -313,17 +302,21 @@ public class Solution349 {
             int balanceFactor = getBalanceFactor(retNode);
 
             // 平衡维护
+            // LL
             if (balanceFactor > 1 && getBalanceFactor(retNode.left) >= 0)
                 return rightRotate(retNode);
 
+            // RR
             if (balanceFactor < -1 && getBalanceFactor(retNode.right) <= 0)
                 return leftRotate(retNode);
 
+            // LR
             if (balanceFactor > 1 && getBalanceFactor(retNode.left) < 0) {
                 retNode.left = leftRotate(retNode.left);
                 return rightRotate(retNode);
             }
 
+            // RL
             if (balanceFactor < -1 && getBalanceFactor(retNode.right) > 0) {
                 retNode.right = rightRotate(retNode.right);
                 return leftRotate(retNode);

@@ -10,6 +10,8 @@ public class Main {
         if(FileOperation.readFile("pride-and-prejudice.txt", words)) {
             System.out.println("Total words: " + words.size());
 
+            // Collections.sort(words);
+
             // Test BST
             long startTime = System.nanoTime();
 

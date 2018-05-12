@@ -188,8 +188,16 @@
 | 11-5 基于rank的优化 | [Java](11-Union-Find/05-Optimized-by-Rank/src/) |
 | 11-6 路径压缩 | [Java](11-Union-Find/06-Path-Compression/src/) |
 | 11-7 更多和并查集相关的话题 | [Java](11-Union-Find/07-More-about-Union-Find/src/) |
-| **第十二章 平衡树和AVL** | [更新中，敬请期待] |
-| | |
+| **第十二章 平衡树和AVL** | [章节Java源码](12-AVL-Tree/) |
+| 12-1 平衡树和AVL | [无代码] |
+| 12-2 计算节点的高度和平衡因子 | [Java](12-AVL-Tree/02-Calculating-Balance-Factor/src/) |
+| 12-3 检查二分搜索树性质和平衡性 | [Java](12-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/src/) |
+| 12-4 旋转操作的基本原理 | [Java](12-AVL-Tree/04-Rotation-Operations/src/) |
+| 12-5 左旋转和右旋转的实现 | [Java](12-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/src/) |
+| 12-6 LR 和 RL | [Java](12-AVL-Tree/06-LR-and-RL/src/) |
+| 12-7 从AVL树中删除元素 | [Java](12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/) |
+| 12-8 基于AVL树的集合和映射 | [Java](12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/) |
+| 补充代码1: AVL树的优化 | [整理中，敬请期待] |
 | **第十三章 红黑树** | [更新中，敬请期待] |
 | | |
 | **第十四章 哈希表** | [更新中，敬请期待] |

@@ -28,7 +28,7 @@ public class UnionFind6 implements UF {
     // 查找过程, 查找元素p所对应的集合编号
     // O(h)复杂度, h为树的高度
     private int find(int p){
-        if(p < 0 && p >= parent.length)
+        if(p < 0 || p >= parent.length)
             throw new IllegalArgumentException("p is out of bound.");
 
         // path compression 2, 递归算法

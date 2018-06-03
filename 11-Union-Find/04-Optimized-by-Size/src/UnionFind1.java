@@ -20,7 +20,7 @@ public class UnionFind1 implements UF {
     // 查找元素p所对应的集合编号
     // O(1)复杂度
     private int find(int p) {
-        if(p < 0 && p >= id.length)
+        if(p < 0 || p >= id.length)
             throw new IllegalArgumentException("p is out of bound.");
 
         return id[p];

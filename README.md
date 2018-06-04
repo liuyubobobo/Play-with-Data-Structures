@@ -103,18 +103,19 @@
 | 6-11 删除二分搜索树的最大元素和最小元素 | [Java](06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/src/) |
 | 6-12 删除二分搜索树的任意元素 | [Java](06-Binary-Search-Tree/12-Remove-Elements-in-BST/src/) |
 | 6-13 更多二分搜索树相关话题 | [无代码] |
-| 补充代码1: 教科书式前中后序遍历的非递归实现 | [整理中，敬请期待] |
-| 补充代码2: 模拟系统栈前中后序遍历的非递归实现 | [整理中，敬请期待] |
-| 补充代码3: 二分搜索树其他方法的非递归实现 | [整理中，敬请期待] |
-| 补充代码4: 前驱和后继操作 | [整理中，敬请期待] |
-| 补充代码5: floor和ceil操作 | [整理中，敬请期待] |
-| 补充代码6: 节点内维护size的二分搜索树 | [整理中，敬请期待] |
-| 补充代码7: rank和select操作 | [整理中，敬请期待] |
-| 补充代码8: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
-| 补充代码9: 节点内维护count的二分搜索树<br/>(支持重复元素的二分搜索树) | [整理中，敬请期待] |
-| 补充代码10: 有重复元素节点的二分搜索树<br/>(另一种支持重复元素的二分搜索树实现) | [整理中，敬请期待] |
-| 补充代码11: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-11-Standford-Binary-Tree)<br/>[代码整理中，敬请期待] |
-| 补充代码12: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-12-Standford-TreeList)<br/>[代码整理中，敬请期待] |
+| 补充代码1: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-01-Standford-Binary-Tree/)<br/>[代码整理中，敬请期待] |
+| 补充代码2: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-02-Standford-TreeList/)<br/>[代码整理中，敬请期待] |
+| 补充代码3: 二叉树前中后序非递归遍历的经典实现 | [Java](06-Binary-Search-Tree/Optional-03-Binary-Tree-Classic-Nonrecursive-Traversal/) |
+| 补充代码4: 模拟系统栈前中后序遍历的非递归实现 | [玩转算法面试，第六章2，3小节]() |
+| 补充代码5: 二叉树Morris遍历前中后序实现 | [Java]() |
+| 补充代码6: 二分搜索树其他方法的非递归实现 | [整理中，敬请期待] |
+| 补充代码7: 前驱和后继操作 | [整理中，敬请期待] |
+| 补充代码8: floor和ceil操作 | [整理中，敬请期待] |
+| 补充代码9: 节点内维护size的二分搜索树 | [整理中，敬请期待] |
+| 补充代码10: rank和select操作 | [整理中，敬请期待] |
+| 补充代码11: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
+| 补充代码12: 节点内维护count的二分搜索树<br/>(支持重复元素的二分搜索树) | [整理中，敬请期待] |
+| 补充代码13: 有重复元素节点的二分搜索树<br/>(另一种支持重复元素的二分搜索树实现) | [整理中，敬请期待] |
 | **第七章 集合和映射** | [章节Java源码](07-Set-and-Map/) |
 | 7-1 集合基础和基于二分搜索树的集合实现 | [Java](07-Set-and-Map/01-Set-Basics-and-BSTSet/src/) |
 | 7-2 基于链表的集合实现 | [Java](07-Set-and-Map/02-LinkedListSet/src/) |

@@ -106,8 +106,8 @@
 | 补充代码1: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-01-Standford-Binary-Tree/)<br/>[代码整理中，敬请期待] |
 | 补充代码2: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-02-Standford-TreeList/)<br/>[代码整理中，敬请期待] |
 | 补充代码3: 二叉树前中后序非递归遍历的经典实现 | [Java](06-Binary-Search-Tree/Optional-03-Binary-Tree-Classic-Nonrecursive-Traversal/) |
-| 补充代码4: 模拟系统栈前中后序遍历的非递归实现 | [玩转算法面试，第六章2，3小节]() |
-| 补充代码5: 二叉树Morris遍历前中后序实现 | [Java]() |
+| 补充代码4: 模拟系统栈前中后序遍历的非递归实现 | [玩转算法面试，第六章2，3小节](https://coding.imooc.com/lesson/82.html#mid=2675) |
+| 补充代码5: 二叉树Morris遍历前中后序实现 | [Java](06-Binary-Search-Tree/Optional-05-Binary-Tree-Morris-Traversal/src/) |
 | 补充代码6: 二分搜索树其他方法的非递归实现 | [整理中，敬请期待] |
 | 补充代码7: 前驱和后继操作 | [整理中，敬请期待] |
 | 补充代码8: floor和ceil操作 | [整理中，敬请期待] |

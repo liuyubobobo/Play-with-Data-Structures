@@ -198,11 +198,11 @@
 | 12-6 LR 和 RL | [Java](12-AVL-Tree/06-LR-and-RL/src/) |
 | 12-7 从AVL树中删除元素 | [Java](12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/) |
 | 12-8 基于AVL树的集合和映射 | [Java](12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/) |
-| 补充代码1: AVL树的优化 | [章节Java源码](13-Red-Black-Tree/) |
-| **第十三章 红黑树** | [更新中，敬请期待] |
+| 补充代码1: AVL树的优化 | [整理中，敬请期待] |
+| **第十三章 红黑树** | [章节Java源码](13-Red-Black-Tree/) |
 | 13-1 红黑树与2-3树 | [无代码] |
 | 13-2 2-3树中添加元素维持绝对平衡 | [无代码] |
-| 13-3 红黑树与2-3树的等价性 | [Java](13-Red-Black-Tree/03-The-Equivalence-of-Red-Black-Tree-and-2-3-Tree/src/) |
+| 13-3 红黑树与2-3树的等价性 | [Java](13-Red-Black-Tree/03-The-equivalence-of-Red-Black-Tree-and-2-3-Tree/src/) |
 | 13-4 红黑树的性质 | [无代码] |
 | [章节更多内容更新中，敬请期待] | [更新中，敬请期待] |
 | **第十四章 哈希表** | [更新中，敬请期待] |

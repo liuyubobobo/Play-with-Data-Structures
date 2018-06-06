@@ -204,6 +204,8 @@
 | 13-2 2-3树的绝对平衡性 | [无代码] |
 | 13-3 红黑树与2-3树的等价性 | [Java](13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/) |
 | 13-4 红黑树的基本性质和复杂度分析 | [无代码] |
+| 13-5 保持根节点为黑色和左旋转 | [Java](13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/) |
+| 13-6 颜色翻转和右旋转 | [Java](13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/) |
 | [章节更多内容更新中，敬请期待] | [更新中，敬请期待] |
 | **第十四章 哈希表** | [更新中，敬请期待] |
 | | |

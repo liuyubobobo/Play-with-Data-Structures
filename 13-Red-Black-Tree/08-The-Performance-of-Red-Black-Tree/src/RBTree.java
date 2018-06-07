@@ -89,14 +89,14 @@ public class RBTree<K extends Comparable<K>, V> {
         node.right.color = BLACK;
     }
 
-    // 向二分搜索树中添加新的元素(key, value)
+    // 向红黑树中添加新的元素(key, value)
     public void add(K key, V value){
         root = add(root, key, value);
         root.color = BLACK; // 最终根节点为黑色节点
     }
 
-    // 向以node为根的二分搜索树中插入元素(key, value)，递归算法
-    // 返回插入新节点后二分搜索树的根
+    // 向以node为根的红黑树中插入元素(key, value)，递归算法
+    // 返回插入新节点后红黑树的根
     private Node add(Node node, K key, V value){
 
         if(node == null){

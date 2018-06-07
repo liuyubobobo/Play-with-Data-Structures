@@ -206,10 +206,14 @@
 | 13-4 红黑树的基本性质和复杂度分析 | [无代码] |
 | 13-5 保持根节点为黑色和左旋转 | [Java](13-Red-Black-Tree/05-Keep-Root-Black-and-Left-Rotation/src/) |
 | 13-6 颜色翻转和右旋转 | [Java](13-Red-Black-Tree/06-Flip-Colors-and-Right-Rotation/src/) |
-| [章节更多内容更新中，敬请期待] | [更新中，敬请期待] |
+| 13-7 红黑树中添加新元素 | [Java](13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/) |
+| 13-8 红黑树的性能测试 | [Java](13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/) |
+| 13-9 更多红黑树相关的话题 | [Java](13-Red-Black-Tree/09-More-about-Red-Black-Tree/src/)|
 | **第十四章 哈希表** | [更新中，敬请期待] |
 | | |
 | **第十五章 结语** | [更新中，敬请期待] |
+| | |
+| **第十六章 补充章节：B类树** | [更新中，敬请期待] |
 | | |
 
 课程正在更新中，敬请期待：）

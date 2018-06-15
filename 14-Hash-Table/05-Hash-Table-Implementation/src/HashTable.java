@@ -28,7 +28,6 @@ public class HashTable<K, V> {
 
     public void add(K key, V value){
         TreeMap<K, V> map = hashtable[hash(key)];
-        // if(!hashtable[hash(key)].containsKey(key)){
         if(map.containsKey(key))
             map.put(key, value);
         else{

@@ -58,7 +58,7 @@ public class Main {
             RBTree<String, Integer> rbt = new RBTree<>();
             for (String word : words) {
                 if (rbt.contains(word))
-                    rbt.set(word, avl.get(word) + 1);
+                    rbt.set(word, rbt.get(word) + 1);
                 else
                     rbt.add(word, 1);
             }

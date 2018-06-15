@@ -27,10 +27,15 @@ public class HashTable<K, V> {
         return (key.hashCode() & 0x7fffffff) % M;
     }
 
+    public int getSize(){
+        return size;
+    }
+
     public void add(K key, V value){
         TreeMap<K, V> map = hashtable[hash(key)];
-        // if(!hashtable[hash(key)].containsKey(key)){
-        if(!map.containsKey(key)){
+        if(map.containsKey(key))
+            map.put(key, value);
+        else{
             map.put(key, value);
             size ++;
 

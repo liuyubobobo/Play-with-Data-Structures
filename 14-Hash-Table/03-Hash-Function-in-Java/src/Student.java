@@ -39,7 +39,7 @@ public class Student {
         Student another = (Student)o;
         return this.grade == another.grade &&
                 this.cls == another.cls &&
-                this.firstName.equals(another.firstName) &&
-                this.lastName.equals(another.lastName);
+                this.firstName.toLowerCase().equals(another.firstName.toLowerCase()) &&
+                this.lastName.toLowerCase().equals(another.lastName.toLowerCase());
     }
 }

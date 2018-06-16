@@ -175,14 +175,15 @@
 | 10-5 Trie字典树和简单的模式匹配 | [Java](10-Trie/05-Trie-and-Pattern-Match/src/) |
 | 10-6 Trie字典树和字符串映射 | [Java](10-Trie/06-Trie-and-Map/src/) |
 | 10-7 更多和Trie字典树相关的话题 | [无代码] |
-| 补充代码1: TrieSet和TrieMap | [整理中，敬请期待] |
-| 补充代码2: Trie的递归实现 | [整理中，敬请期待] |
-| 补充代码3: 使用Trie删除元素与 | [整理中，敬请期待] |
-| 补充代码4: 压缩字典树 | [整理中，敬请期待] |
-| 补充代码5: 三分搜索Trie (Ternary Search Trie) | [整理中，敬请期待] |
-| 补充代码6: 子串查询算法 | [整理中，敬请期待] |
-| 补充代码7: 文件压缩算法 | [整理中，敬请期待] |
-| 补充代码8: 模式匹配算法 | [整理中，敬请期待] |
+| 补充代码1: 使用HashMap或者Array的Trie | [Java](10-Trie/Optional-01-Trie-Using-HashMap-and-Array/src/) |
+| 补充代码2: TrieSet和TrieMap | [整理中，敬请期待] |
+| 补充代码3: Trie的递归实现 | [整理中，敬请期待] |
+| 补充代码4: 使用Trie删除元素与 | [整理中，敬请期待] |
+| 补充代码5: 压缩字典树 | [整理中，敬请期待] |
+| 补充代码6: 三分搜索Trie (Ternary Search Trie) | [整理中，敬请期待] |
+| 补充代码7: 子串查询算法 | [整理中，敬请期待] |
+| 补充代码8: 文件压缩算法 | [整理中，敬请期待] |
+| 补充代码9: 模式匹配算法 | [整理中，敬请期待] |
 | **第十一章 并查集** | [章节Java源码](11-Union-Find/) |
 | 11-1 什么是并查集 | [Java](11-Union-Find/01-What-is-UnionFind/src/) |
 | 11-2 Quick Find | [Java](11-Union-Find/02-Quick-Find/src/) |

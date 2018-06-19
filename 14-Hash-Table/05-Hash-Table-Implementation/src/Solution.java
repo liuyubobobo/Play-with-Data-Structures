@@ -2,7 +2,7 @@
 /// https://leetcode.com/problems/intersection-of-two-arrays-ii/description/
 ///
 /// 课程中在这里暂时没有介绍这个问题
-/// 该代码主要用于使用Leetcode上的问题测试我们的BSTMap类
+/// 该代码主要用于使用Leetcode上的问题测试我们的HashTable类
 
 import java.util.TreeMap;
 import java.util.ArrayList;

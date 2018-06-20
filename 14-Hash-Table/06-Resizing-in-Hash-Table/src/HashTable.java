@@ -51,7 +51,7 @@ public class HashTable<K, V> {
             ret = map.remove(key);
             size --;
 
-            if(size <= lowerTol * M && M > initCapacity)
+            if(size < lowerTol * M && M / 2 >= initCapacity)
                 resize(M / 2);
         }
         return ret;
@@ -78,11 +78,14 @@ public class HashTable<K, V> {
         for(int i = 0 ; i < newM ; i ++)
             newHashTable[i] = new TreeMap<>();
 
-        for(int i = 0 ; i < M ; i ++)
-            for(K key: hashtable[i].keySet())
-                newHashTable[hash(key)].put(key, hashtable[i].get(key));
-
+        int oldM = M;
         this.M = newM;
+        for(int i = 0 ; i < oldM ; i ++){
+            TreeMap<K, V> map = hashtable[i];
+            for(K key: map.keySet())
+                newHashTable[hash(key)].put(key, map.get(key));
+        }
+
         this.hashtable = newHashTable;
     }
 }

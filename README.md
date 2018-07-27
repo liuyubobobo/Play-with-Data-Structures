@@ -84,7 +84,7 @@
 | 5-5 递归运行的机制：递归的微观解读 | [无代码] | 
 | 5-6 递归算法的调试 | [Java](05-Recursion/06-Debug-Recursive-Solution/src/) | 
 | 5-7 更多和链表相关的问题 | [无代码] |
-| 补充代码1: 单链表的递归实现 | [Java](05-Recursion/Optional-01-Recursive-Linked-List/src/) |
+| 补充代码1: 单链表的递归实现 | [Java](05-Recursion/Optional-01-Recursive-LinkedList/src/) |
 | 补充代码2: 斯坦福大学单链表的18个问题 | [PDF](05-Recursion/Optional-02-Stanford-LinkedList-Problems/)<br/>[代码整理中，敬请期待] |
 | 补充代码3: 双链表 | [整理中，敬请期待] |
 | 补充代码4: 循环双链表 | [整理中，敬请期待] |

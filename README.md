@@ -16,11 +16,9 @@
 
 **个人公众号：是不是很酷**：）
 
-![QRCode](qrcode.jpg)
+![QRCode](src/qrcode.jpg)
 
 ## 更多说明
-
-* 课程更新阶段，暂时只有Java语言版本源码，课程更新完毕后会先上线C++版本源码。在本年度(2018年)有上线Python版本源码的计划。对于其他语言支持，暂时没有计划。
 
 * 每一章后面有补充代码的部分。**课程本身已经独立成体系，补充内容只是额外拓展，不影响课程整体的学习。对于课程整体学习，可以忽略。建议先完成课程必要部分学习，再酌情研究补充内容。**
 
@@ -29,7 +27,7 @@
 * 请不要使用github，微信，QQ，邮件进行答疑。请使用课程问答区进行答疑。谢谢！
 
 
-### 更多相关代码仓
+## 更多相关代码仓
 
 * [**《算法与数据结构》课程**](https://coding.imooc.com/class/71.html), 代码仓: [Play-with-Algorithms](https://github.com/liuyubobobo/Play-with-Algorithms)
 
@@ -39,6 +37,17 @@
 
 *  我的LeetCode题解代码仓：[Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode) 
 （注：以C++实现为主）
+
+## 更多推荐
+
+* 感谢学习课程的大佬 [**@houpengfei88**](https://github.com/houpengfei88) 同学使用C++完成了课程的全部内容。有使用C++学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/houpengfei88/Play-with-Data-Structures](https://github.com/houpengfei88/Play-with-Data-Structures)
+
+* 感谢学习课程的大佬 [@摘星fy](https://github.com/kingAnyWHere)基于Canvas实现的堆和任意二分搜索树的可视化。有兴趣的同学可以去大佬的代码仓围观。
+    * 堆的可视化：[https://github.com/kingAnyWHere/MaxHeap](https://github.com/kingAnyWHere/MaxHeap)
+    * 任意二分搜索树的可视化 ：[https://github.com/kingAnyWHere/canvas-binary-search](https://github.com/kingAnyWHere/canvas-binary-search) 
+    * 以下为截图：）
+    
+![BST-Visualization](src/demo.png)
 
 ## 课程源码目录 
 

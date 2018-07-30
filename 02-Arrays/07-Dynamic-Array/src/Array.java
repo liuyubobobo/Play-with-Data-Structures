@@ -98,7 +98,7 @@ public class Array<E> {
         for(int i = index + 1 ; i < size ; i ++)
             data[i - 1] = data[i];
         size --;
-        data[size] = null; // loitering objects != memory leak
+        data[size-1] = null; // loitering objects != memory leak
 
         if(size == data.length / 2)
             resize(data.length / 2);

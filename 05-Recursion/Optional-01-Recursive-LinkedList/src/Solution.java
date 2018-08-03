@@ -158,7 +158,7 @@ class Solution {
                 return new Pair<>(node.next, node.e);
             Pair<Node, E> res = remove(node.next, index - 1);
             node.next = res.getKey();
-            return res;
+            return new Pair<>(node, res.getValue());
         }
 
         // 从链表中删除第一个元素, 返回删除的元素

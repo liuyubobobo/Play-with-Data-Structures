@@ -1,7 +1,7 @@
 import javafx.util.Pair;
 
 /// 递归实现的LinkedList
-/// 类名称中LinkedListR里的R，是Resursion的意思，表示递归实现：）
+/// 类名称中LinkedListR里的R，是Recursion的意思，表示递归实现：）
 public class LinkedListR<E> {
 
     private class Node{
@@ -151,7 +151,7 @@ public class LinkedListR<E> {
             return new Pair<>(node.next, node.e);
         Pair<Node, E> res = remove(node.next, index - 1);
         node.next = res.getKey();
-        return res;
+        return new Pair<>(node, res.getValue());
     }
 
     // 从链表中删除第一个元素, 返回删除的元素
@@ -194,5 +194,15 @@ public class LinkedListR<E> {
         res.append("NULL");
 
         return res.toString();
+    }
+
+    public static void main(String[] args) {
+
+        LinkedListR<Integer> list = new LinkedListR<>();
+        for(int i = 0 ; i < 10 ; i ++)
+            list.addFirst(i);
+
+        while(!list.isEmpty())
+            System.out.println("removed " + list.removeLast());
     }
 }

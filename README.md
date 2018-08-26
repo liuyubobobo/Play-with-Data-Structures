@@ -18,6 +18,7 @@
 
 ![QRCode](src/qrcode.jpg)
 
+
 ## 更多说明
 
 * 每一章后面有补充代码的部分。**课程本身已经独立成体系，补充内容只是额外拓展，不影响课程整体的学习。对于课程整体学习，可以忽略。建议先完成课程必要部分学习，再酌情研究补充内容。**
@@ -35,8 +36,11 @@
 
 * [**《看得见的算法》课程**](https://coding.imooc.com/class/138.html), 代码仓: [Play-with-Algorithm-Visualization](https://github.com/liuyubobobo/Play-with-Algorithm-Visualization)
 
-*  我的LeetCode题解代码仓：[Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode) 
-（注：以C++实现为主）
+* 我的**LeetCode题解代码仓**：[Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode) （注：以C++实现为主）
+
+* **LeetCode Explore题解代码仓**：[Play Leetcode Explore](https://github.com/liuyubobobo/Play-Leetcode-Explore) （注：以C++实现为主）
+    * [Leetcode Explore](https://leetcode.com/explore/) 是 Leetcode 在2017年底上线的新模块，分门别类地整理了Leetcode上的问题。如果刷Leetcode一时不知从哪里下手，可以从Leetcode Explore为指引开始：）
+    
 
 ## 更多推荐
 
@@ -48,6 +52,7 @@
     * 以下为截图：）
     
 ![BST-Visualization](src/demo.png)
+
 
 ## 课程源码目录 
 

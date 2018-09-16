@@ -36,6 +36,4 @@ Thumbs.db
 #################
 ppt/
 text-contents/
-.pdf
-
-
+*.pdf

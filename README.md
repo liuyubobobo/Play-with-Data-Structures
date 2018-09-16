@@ -101,7 +101,7 @@
 | 5-6 递归算法的调试 | [Java](05-Recursion/06-Debug-Recursive-Solution/src/) | 
 | 5-7 更多和链表相关的问题 | [无代码] |
 | 补充代码1: 单链表的递归实现 | [Java](05-Recursion/Optional-01-Recursive-LinkedList/src/) |
-| 补充代码2: 斯坦福大学单链表的18个问题 | [PDF](05-Recursion/Optional-02-Stanford-LinkedList-Problems/)<br/>[代码整理中，敬请期待] |
+| 补充代码2: 斯坦福大学单链表的18个问题 | PDF参见慕课网上讲师源代码 |
 | 补充代码3: 双链表 | [整理中，敬请期待] |
 | 补充代码4: 循环双链表 | [整理中，敬请期待] |
 | 补充代码5: 数组链表 | [整理中，敬请期待] |
@@ -119,8 +119,8 @@
 | 6-11 删除二分搜索树的最大元素和最小元素 | [Java](06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/src/) |
 | 6-12 删除二分搜索树的任意元素 | [Java](06-Binary-Search-Tree/12-Remove-Elements-in-BST/src/) |
 | 6-13 更多二分搜索树相关话题 | [无代码] |
-| 补充代码1: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-01-Standford-Binary-Tree/)<br/>[代码整理中，敬请期待] |
-| 补充代码2: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-02-Standford-TreeList/)<br/>[代码整理中，敬请期待] |
+| 补充代码1: 斯坦福大学Binary Tree相关问题 | PDF参见慕课网上讲师源代码 |
+| 补充代码2: 斯坦福大学Tree List相关问题 | PDF参见慕课网上讲师源代码 |
 | 补充代码3: 二叉树前中后序非递归遍历的经典实现 | [Java](06-Binary-Search-Tree/Optional-03-Binary-Tree-Classic-Nonrecursive-Traversal/) |
 | 补充代码4: 模拟系统栈前中后序遍历的非递归实现 | [玩转算法面试，第六章2，3小节](https://coding.imooc.com/lesson/82.html#mid=2675) |
 | 补充代码5: 二叉树Morris遍历前中后序实现 | [Java](06-Binary-Search-Tree/Optional-05-Binary-Tree-Morris-Traversal/src/) |

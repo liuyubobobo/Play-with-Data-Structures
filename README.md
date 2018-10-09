@@ -193,7 +193,7 @@
 | 10-7 更多和Trie字典树相关的话题 | [无代码] |
 | 10-8 [文字补充] 基于哈希表或者数组的Trie | [Java](10-Trie/08-Trie-Using-HashMap-and-Array/src/) |
 | 补充代码1: Trie的递归实现 | [Java](10-Trie/Optional-01-Trie-in-Recursion/src/) |
-| 补充代码2: 使用Trie删除元素 | [整理中，敬请期待] |
+| 补充代码2: 使用Trie删除元素 | [Java](10-Trie/Optional-02-Trie-Delete/src/) |
 | 补充代码3: TrieSet和TrieMap | [整理中，敬请期待] |
 | 补充代码4: 压缩字典树 | [整理中，敬请期待] |
 | 补充代码5: 三分搜索Trie (Ternary Search Trie) | [整理中，敬请期待] |

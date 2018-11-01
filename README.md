@@ -4,7 +4,7 @@
 
 大家可以下载、运行、测试、修改。如果你发现了任何bug，或者对课程中的任何内容有意见或建议，欢迎和我联系：）
 
-**个人网站**：[liuyubobobo.com](http://liuyubobobo.com)
+**个人网站**：[liuyubobobo.com](http://liuyubobobo.com) [废弃重整中...]
 
 **电子邮件**：[liuyubobobo@gmail.com](mailto:liuyubobobo@gmail.com)
 
@@ -46,7 +46,9 @@
 
 ## 更多推荐
 
-* 感谢学习课程的大佬 [**@houpengfei88**](https://github.com/houpengfei88) 同学使用C++完成了课程的全部内容。有使用C++学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/houpengfei88/Play-with-Data-Structures](https://github.com/houpengfei88/Play-with-Data-Structures)
+* 感谢学习课程的大佬 [**@nicemayi**](https://github.com/nicemayi) 同学使用 **Python** 完成了课程的全部内容。有使用Python学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/nicemayi/play-with-data-structures](https://github.com/nicemayi/play-with-data-structures)
+ 
+* 感谢学习课程的大佬 [**@houpengfei88**](https://github.com/houpengfei88) 同学使用 **C++** 完成了课程的全部内容。有使用C++学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/houpengfei88/Play-with-Data-Structures](https://github.com/houpengfei88/Play-with-Data-Structures)
 
 * 感谢学习课程的大佬 [@摘星fy](https://github.com/kingAnyWHere)基于Canvas实现的堆和任意二分搜索树的可视化。有兴趣的同学可以去大佬的代码仓围观。
     * 堆的可视化：[https://github.com/kingAnyWHere/MaxHeap](https://github.com/kingAnyWHere/MaxHeap)

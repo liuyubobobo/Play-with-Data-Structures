@@ -50,7 +50,9 @@
  
 * 感谢学习课程的大佬 [**@houpengfei88**](https://github.com/houpengfei88) 同学使用 **C++** 完成了课程的全部内容。有使用C++学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/houpengfei88/Play-with-Data-Structures](https://github.com/houpengfei88/Play-with-Data-Structures)
 
-* 感谢学习课程的大佬 [@摘星fy](https://github.com/kingAnyWHere)基于Canvas实现的堆和任意二分搜索树的可视化。有兴趣的同学可以去大佬的代码仓围观。
+* 感谢学习课程的大佬 [**@biaodigit**](https://github.com/biaodigit) 同学使用 **JS** 完成了课程的全部内容。有使用JS学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/biaodigit/Play-with-Data-Structures](https://github.com/biaodigit/Play-with-Data-Structures)
+
+* 感谢学习课程的大佬 [@kingAnyWHere](https://github.com/kingAnyWHere)基于Canvas实现的堆和任意二分搜索树的可视化。有兴趣的同学可以去大佬的代码仓围观。
     * 堆的可视化：[https://github.com/kingAnyWHere/MaxHeap](https://github.com/kingAnyWHere/MaxHeap)
     * 任意二分搜索树的可视化 ：[https://github.com/kingAnyWHere/canvas-binary-search](https://github.com/kingAnyWHere/canvas-binary-search) 
     * 以下为截图：）

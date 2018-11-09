@@ -96,6 +96,9 @@ public class BSTSetSolution {
         // 二分搜索树的非递归前序遍历
         public void preOrderNR(){
 
+            if(root == null)
+                return;
+
             Stack<Node> stack = new Stack<>();
             stack.push(root);
             while(!stack.isEmpty()){
@@ -143,6 +146,9 @@ public class BSTSetSolution {
 
         // 二分搜索树的层序遍历
         public void levelOrder(){
+
+            if(root == null)
+                return;
 
             Queue<Node> q = new LinkedList<>();
             q.add(root);

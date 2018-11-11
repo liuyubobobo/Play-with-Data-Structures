@@ -88,7 +88,8 @@
 | 3-6 循环队列 | [Java](03-Stacks-and-Queues/06-Loop-Queue/src/) |
 | 3-7 循环队列的实现 | [Java](03-Stacks-and-Queues/07-Implementation-of-Loop-Queue/src/) |
 | 3-8 数组队列和循环队列的比较 | [Java](03-Stacks-and-Queues/08-Queues-Comparison/src/) |
-| 补充代码1: 没有size成员变量的循环队列 | [整理中，敬请期待] |
+| 补充代码1: 不浪费一个空间的循环队列 | [Java](03-Stacks-and-Queues/Optional-01-Loop-Queue-without-Wasting-One-Space/src/) |
+| 补充代码2: 没有size成员变量的循环队列 | [Java](03-Stacks-and-Queues/Optional-02-Loop-Queue-without-Size-Member/src/) |
 | **第四章 最基础的动态数据结构：链表** | [章节Java源码](04-Linked-List/) |
 | 4-1 什么是链表 | [Java](04-Linked-List/01-Linked-List-Basics/src/) | 
 | 4-2 在链表中添加元素 | [Java](04-Linked-List/02-Add-Elements-in-LinkedList/src/) | 

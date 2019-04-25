@@ -108,6 +108,7 @@ public class Trie {
             // 如果一个节点的isWord为true，或者是其他单词的前缀，则直接返回
             if(stack.peek().isWord || stack.peek().next.size() > 0)
                 return true;
+            stack.pop();
         }
         return true;
     }

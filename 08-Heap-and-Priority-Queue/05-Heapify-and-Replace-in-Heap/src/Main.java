@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class Main {
@@ -10,7 +11,7 @@ public class Main {
         if(isHeapify)
             maxHeap = new MaxHeap<>(testData);
         else{
-            maxHeap = new MaxHeap<>();
+            maxHeap = new MaxHeap<>(testData.length);
             for(int num: testData)
                 maxHeap.add(num);
         }
@@ -34,14 +35,16 @@ public class Main {
         int n = 1000000;
 
         Random random = new Random();
-        Integer[] testData = new Integer[n];
+        Integer[] testData1 = new Integer[n];
         for(int i = 0 ; i < n ; i ++)
-            testData[i] = random.nextInt(Integer.MAX_VALUE);
+            testData1[i] = random.nextInt(Integer.MAX_VALUE);
 
-        double time1 = testHeap(testData, false);
+        Integer[] testData2 = Arrays.copyOf(testData1, n);
+
+        double time1 = testHeap(testData1, false);
         System.out.println("Without heapify: " + time1 + " s");
 
-        double time2 = testHeap(testData, true);
+        double time2 = testHeap(testData2, true);
         System.out.println("With heapify: " + time2 + " s");
     }
 }

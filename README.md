@@ -54,9 +54,9 @@
 
 * 感谢学习课程的大佬 [**@biaodigit**](https://github.com/biaodigit) 同学使用 **JS** 完成了课程的全部内容。有使用JS学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/biaodigit/Play-with-Data-Structures](https://github.com/biaodigit/Play-with-Data-Structures)
 
-* 感谢学习课程的大佬 [**@摘星fy**](https://github.com/kingAnyWHere) 基于Canvas实现的诸多数据结构可视化。有兴趣的同学可以去大佬的代码仓围观。同时，[**@摘星fy**](https://github.com/kingAnyWHere) 还基于Canvas实现了我的《修炼算法内功》和《看得见的算法》两门课程中诸多算法和数据结构的可视化内容，大家不要错过！
+* 感谢学习课程的大佬 [**@田小号**](https://github.com/tianxiaohao1) 基于Canvas实现的诸多数据结构可视化。有兴趣的同学可以去大佬的代码仓围观。同时，[**@田小号**](https://github.com/tianxiaohao1) 还基于Canvas实现了我的《修炼算法内功》和《看得见的算法》两门课程中诸多算法和数据结构的可视化内容，大家不要错过！
 
-    代码仓传送门：[**https://github.com/kingAnyWHere/codding.cn/tree/master/algo**](https://github.com/kingAnyWHere/codding.cn/tree/master/algo)
+    代码仓传送门：[**https://github.com/tianxiaohao1/codding.cn/tree/master/algo**](https://github.com/tianxiaohao1/codding.cn/tree/master/algo)
     
 ![ds-vis](src/fy.jpg)
 

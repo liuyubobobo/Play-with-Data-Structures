@@ -12,8 +12,10 @@ public class MaxHeap<E extends Comparable<E>> {
 
     public MaxHeap(E[] arr){
         data = new Array<>(arr);
-        for(int i = parent(arr.length - 1) ; i >= 0 ; i --)
-            siftDown(i);
+        if(arr.length != 1){
+            for(int i = parent(arr.length - 1) ; i >= 0 ; i --)
+                siftDown(i);
+        }
     }
 
     // 返回堆中的元素个数

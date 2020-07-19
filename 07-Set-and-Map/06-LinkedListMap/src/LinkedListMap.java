@@ -68,6 +68,9 @@ public class LinkedListMap<K, V> implements Map<K, V> {
 
     @Override
     public void add(K key, V value){
+        if (key == null) {
+            throw new IllegalArgumentException("key can't be null!");
+        }
         Node node = getNode(key);
         if(node == null){
             dummyHead.next = new Node(key, value, dummyHead.next);

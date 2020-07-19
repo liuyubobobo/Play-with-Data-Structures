@@ -36,6 +36,9 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
     // 向二分搜索树中添加新的元素(key, value)
     @Override
     public void add(K key, V value){
+        if (key == null) {
+            throw new IllegalArgumentException("key can't be null!");
+        }
         root = add(root, key, value);
     }
 

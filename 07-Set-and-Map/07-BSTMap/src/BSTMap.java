@@ -36,9 +36,9 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
     // 向二分搜索树中添加新的元素(key, value)
     @Override
     public void add(K key, V value){
-        if (key == null) {
+        if (key == null)
             throw new IllegalArgumentException("key can't be null!");
-        }
+        
         root = add(root, key, value);
     }
 
@@ -63,6 +63,9 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
 
     // 返回以node为根节点的二分搜索树中，key所在的节点
     private Node getNode(Node node, K key){
+
+        if (key == null)
+            throw new IllegalArgumentException("key can't be null!");
 
         if(node == null)
             return null;

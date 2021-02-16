@@ -119,4 +119,14 @@ public class TrieR {
             node.next.remove(word.charAt(index));
         return ret;
     }
+
+    public static void main(String[] args) {
+
+        Trie trie = new Trie();
+        trie.add("apot");
+        System.out.println(trie.contains("apot"));
+
+        trie.remove("apot");
+        System.out.println(trie.contains("apot"));
+    }
 }

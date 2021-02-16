@@ -174,6 +174,8 @@ public class BSTMap<K extends Comparable<K>, V> implements Map<K, V> {
 
     public static void main(String[] args){
 
+        System.out.println("Working Directory = " + System.getProperty("user.dir"));
+
         System.out.println("Pride and Prejudice");
 
         ArrayList<String> words = new ArrayList<>();
